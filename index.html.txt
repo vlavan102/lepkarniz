@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ЛепКарниз — эксклюзивные лепные изделия и профессиональный монтаж для элитных интерьеров в Санкт-Петербурге.">
+    <meta name="keywords" content="лепнина, карнизы, монтаж, интерьер, эксклюзив, Санкт-Петербург, люксовые интерьерные решения">
+    <meta name="author" content="ЛепКарниз">
+    <title>ЛепКарниз — Элитные лепные изделия и монтаж</title>
+
+    <!-- Подключение Google Fonts (для красивых шрифтов) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Основные стили */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Шапка */
+        header {
+            background-color: #4C3D33; /* Темный цвет для эксклюзивности */
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Навигация */
+        nav {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: 500;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #D2B48C; /* Слоновая кость для элегантности */
+        }
+
+        /* Блок с изображением на главной */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x800.png?text=Элитные+Интерьеры');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 3em;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero span {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        /* Секция услуг */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        section h2 {
+            font-size: 3em;
+            color: #4C3D33;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 30px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Блок с карточками услуг */
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            background-color: #F5F5F5;
+            padding: 40px;
+            width: 30%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-item h3 {
+            color: #4C3D33;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .service-item p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Контакты */
+        .contact {
+            background-color: #4C3D33;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .contact p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Подвал */
+        footer {
+            background-color: #4C3D33;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 1.1em;
+        }
+
+        footer a {
+            color: #D2B48C;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        /* Адаптивность для мобильных устройств */
+        @media (max-width: 768px) {
+            .hero {
+                font-size: 2em;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .services {
+                flex-direction: column;
+            }
+
+            .service-item {
+                width: 80%;
+                margin: 20px 0;
+            }
+
+            footer {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ЛепКарниз — Элитные лепные изделия и монтаж</h1>
+    <nav>
+        <a href="#services">Услуги</a>
+        <a href="#about">О нас</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <span>Идеальные интерьеры, воплощенные в лепнине</span>
+</div>
+
+<section id="services">
+    <h2>Наши Услуги</h2>
+    <div class="services">
+        <div class="service-item">
+            <h3>Лепнина</h3>
+            <p>Мы создаем эксклюзивные лепные изделия для самых требовательных клиентов.</p>
+        </div>
+        <div class="service-item">
+            <h3>Монтаж</h3>
+            <p>Профессиональный монтаж, с гарантией идеальной установки в вашем интерьере.</p>
+        </div>
+        <div class="service-item">
+            <h3>Дизайн</h3>
+            <p>Разработка уникальных проектов для вашего дома или бизнеса.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>О нас</h2>
+    <p>ЛепКарниз — это команда опытных профессионалов, которая создает высококачественные лепные изделия и предлагает услуги по их монтажу для элитных интерьеров в Санкт-Петербурге. Мы обеспечиваем идеальные решения для самых взыскательных клиентов, ориентируясь на стиль, качество и индивидуальные предпочтения.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Контакты</h2>
+    <p>Свяжитесь с нами для получения индивидуальной консультации и создания эксклюзивного проекта. Мы рады помочь вам с любыми вопросами.</p>
+    <p>Для связи: <a href="https://vk.com/lepkarniz" target="_blank">Наш ВКонтакте</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 ЛепКарниз. Все права защищены.</p>
+    <p><a href="#">Политика конфиденциальности</a> | <a href="#">Условия использования</a></p>
+</footer>
+
+</body>
+</html>
