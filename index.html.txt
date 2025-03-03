@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ЛепКарниз — компания, предлагающая лепные изделия и профессиональный монтаж в Санкт-Петербурге.">
+    <title>ЛепКарниз — Лепнина и Монтаж в Санкт-Петербурге</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F8F8;
+            color: #333;
+        }
+        header {
+            background-color: #D2B48C; /* Цвет слоновой кости */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        nav {
+            background-color: #8B4513; /* Темно-коричневый для акцентов */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x600.png?text=Лепнина+и+Монтаж');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+            color: #8B4513;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .service-item {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .service-item h3 {
+            font-size: 1.5em;
+            color: #8B4513;
+        }
+        footer {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ЛепКарниз — Лепнина и Монтаж в Санкт-Петербурге</h1>
+</header>
+
+<nav>
+    <a href="#services">Услуги</a>
+    <a href="#about">О нас</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="hero">
+    <span>Элегантность и стиль в каждой детали</span>
+</div>
+
+<section id="services">
+    <h2>Наши Услуги</h2>
+    <div class="service-item">
+        <h3>Лепнина на заказ</h3>
+        <p>Изготавливаем и устанавливаем лепные изделия на заказ для любых интерьеров.</p>
+    </div>
+    <div class="service-item">
+        <h3>Профессиональный монтаж</h3>
+        <p>Обеспечиваем качественный монтаж с гарантией и соблюдением всех стандартов.</p>
+    </div>
+    <div class="service-item">
+        <h3>Дизайн интерьера</h3>
+        <p>Проектирование и реализация дизайнерских решений с использованием лепных элементов.</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>О нас</h2>
+    <p>Компания "ЛепКарниз" занимается производством и установкой лепнины в Санкт-Петербурге. Мы предлагаем как стандартные, так и индивидуальные решения для вашего интерьера. Наши мастера — профессионалы своего дела, которые гарантируют высокое качество работы и длительный срок службы изделий.</p>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Свяжитесь с нами для консультации или заказа:</p>
+    <p>Email: info@lepkarniz.ru</p>
+    <p>Телефон: +7 (999) 123-45-67</p>
+    <p>ВКонтакте: <a href="https://vk.com/lepkarniz" target="_blank">lepkarniz</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 ЛепКарниз. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
