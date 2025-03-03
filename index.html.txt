@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ЛепКарниз — компания, предлагающая лепные изделия и профессиональный монтаж в Санкт-Петербурге.">
+    <meta name="keywords" content="лепнина, монтаж, лепкарниз, Санкт-Петербург">
+    <meta property="og:title" content="ЛепКарниз — Лепнина и Монтаж в Санкт-Петербурге">
+    <meta property="og:description" content="Мы предлагаем лепные изделия и профессиональный монтаж в Санкт-Петербурге.">
+    <meta property="og:image" content="URL_вашего_изображения">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <title>ЛепКарниз — Лепнина и Монтаж в Санкт-Петербурге</title>
+    <style>
+        /* Общие стили для всего сайта */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F8F8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #D2B48C; /* Цвет слоновой кости */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #8B4513; /* Темно-коричневый для акцентов */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        /* Стили для главного блока (hero) */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x600.png?text=Лепнина+и+Монтаж');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Стили для блоков услуг */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #8B4513;
+        }
+
+        .service-item {
+            display: inline-block;
+            width: 30%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .service-item h3 {
+            font-size: 1.5em;
+            color: #8B4513;
+        }
+
+        /* Стили для футера */
+        footer {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Адаптация для мобильных устройств */
+        @media (max-width: 768px) {
+            .service-item {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            .hero {
+                font-size: 2em;
+                height: 200px;
+            }
+
+            nav a {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ЛепКарниз — Лепнина и Монтаж в Санкт-Петербурге</h1>
+</header>
+
+<nav>
+    <a href="#services">Услуги</a>
+    <a href="#about">О нас</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="hero">
+    <span>Элегантность и стиль в каждой детали</span>
+</div>
+
+<section id="services">
+    <h2>Наши Услуги</h2>
+    <div class="service-item">
+        <h3>Лепнина</h3>
+        <p>Мы предлагаем лепные изделия высокого качества для любого интерьера.</p>
+    </div>
+    <div class="service-item">
+        <h3>Монтаж</h3>
+        <p>Профессиональный монтаж лепнины с гарантией качества и долговечности.</p>
+    </div>
+    <div class="service-item">
+        <h3>Консультации</h3>
+        <p>Получите консультацию наших экспертов для правильного выбора лепнины.</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>О нас</h2>
+    <p>Компания "ЛепКарниз" специализируется на производстве и установке лепных изделий в Санкт-Петербурге. Мы предоставляем услуги как для частных клиентов, так и для крупных проектов.</p>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Для получения дополнительной информации или консультации, свяжитесь с нами через <a href="https://vk.com/lepkarniz" target="_blank">ВКонтакте</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 ЛепКарниз — Лепнина и Монтаж в Санкт-Петербурге</p>
+</footer>
+
+</body>
+</html>
